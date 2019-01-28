@@ -1,0 +1,14 @@
+## in terminal:
+## go to the object directory
+cd document/lecture_git
+## to create a text file
+touch machine_learning_lecture_3.txt
+## open the file
+open machine_learning_lecture_3.txt
+
+git add note.txt
+git commit -m "add note 3"
+git push origin master
+
+## retreat a change
+git reset --hard ### here is the name of commit
