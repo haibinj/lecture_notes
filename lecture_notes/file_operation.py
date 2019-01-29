@@ -38,11 +38,12 @@ with open('dataset.csv') as csv_file:
 	for r in csv_reader:
 		print(r)
 
+# this "reading csv" is relatively faster than stata.
 
 print(csv_reader)
 
 
-
+#from theano import *#
 
 
 
