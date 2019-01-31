@@ -43,10 +43,13 @@ print(df['D'])
 #print(df[0,3])
 
 print(df[df.B>0].head())
+## python can run more than one data set at a time, not like stata only run one data set.
 
+df2= pd.read_csv('dataset.csv')
 
+print(df2)
 
-
+print(df2['wage'])
 
 
 
