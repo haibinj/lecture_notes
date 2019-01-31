@@ -28,21 +28,21 @@ df = pd.DataFrame(np.random.randn(n,10),index=t, columns=list('ABCDEFGHIJ') )
 #print(df.tail(5))
 
 print(df.describe())
-
+#transport the data
 print(df.T)
 
 
+print(df.head().sort_values(by='C'))
 
 
+print(df.sort_values(by='C'))
 
+print(df['D'])
+## this is not an array
 
+#print(df[0,3])
 
-
-
-
-
-
-
+print(df[df.B>0].head())
 
 
 
