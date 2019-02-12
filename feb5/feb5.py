@@ -48,7 +48,7 @@ response = urllib.request.urlopen("http://www.coinmarketcap.com",context=unverif
 page= response.read()
 
 print(page)
-f = open("coinmarketcap.html","wb")
+f = open("coinmarketcap.html","wb")## write by
 f.write(page)
 f.close()
 
